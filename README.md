@@ -1,16 +1,5 @@
 # Dealerdirect: PHP Quality Assurance Tools
 
-![Project Stage][project-stage-shield]
-![Maintenance][maintenance-shield]
-![Awesome][awesome-shield]
-[![License][license-shield]](LICENSE.md)
-
-[![Travis][travis-shield]][travis]
-[![Latest Version on Packagist][packagist-version-shield]][packagist-version]
-[![Packagist][packagist-shield]][packagist]
-
-> _“If you don’t have time to do it right you must have time to do it over.”_
-
 This is essentially a Composer meta package, creating a fast, easy and
 convenient way of installing all PHP Quality Assurance tools.
 
