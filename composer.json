@@ -1,0 +1,63 @@
+{
+  "name": "dealerdirect/qa-tools",
+  "description": "Meta package for installing all PHP QA tools you'll ever need",
+  "type": "metapackage",
+  "keywords": [
+    "php",
+    "qa", "quality", "code quality",
+    "stylecheck", "unittest"
+  ],
+  "homepage": "http://workingatdealerdirect.eu",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Franck Nijhof",
+      "email": "franck.nijhof@dealerdirect.nl",
+      "homepage": "http://workingatdealerdirect.eu",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "opensource@dealerdirect.nl",
+    "issues": "https://github.com/dealerdirect/php-qa-tools/issues",
+    "source": "https://github.com/DealerDirect/php-qa-tools"
+  },
+  "require": {
+    "php": ">=5.6,<8.0-dev",
+    "brianium/paratest": ">=0.14|^1.0",
+    "codeception/codeception": "^2.3",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.4",
+    "deployer/deployer": "^4.3",
+    "deployer/recipes": "^4.0",
+    "friendsofphp/php-cs-fixer": "^2.8",
+    "hirak/prestissimo": "^0.3",
+    "jakub-onderka/php-parallel-lint": ">=0.9.1,<1.0.0",
+    "pdepend/pdepend": "^2.5",
+    "phpcompatibility/php-compatibility": "^8.0",
+    "phploc/phploc": "^4.0",
+    "phpmd/phpmd": "^2.6.0",
+    "phpmetrics/phpmetrics": "^2.3.2",
+    "phpro/grumphp": ">=0.11.0,<1.0.0,!=0.11.4",
+    "phpunit/phpunit": "^5.7|^6.5",
+    "robmorgan/phinx": "^0.10",
+    "scheb/tombstone-analyzer": "^0.3",
+    "sebastian/phpcpd": "^3.0",
+    "seld/jsonlint": "^1.6",
+    "sensiolabs/security-checker": "^5.0",
+    "sllh/composer-versions-check": "^2.0",
+    "squizlabs/php_codesniffer": "^3.2"
+  },
+  "suggest": {
+    "apigen/apigen": "Smart and Readable Documentation for your PHP project.",
+    "behat/behat": "Scenario-oriented BDD framework",
+    "mayflower/php-codebrowser": "A code browser that augments the code with information from various QA tools.",
+    "mockery/mockery": "A simple yet flexible PHP mock object framework",
+    "phpdocumentor/phpdocumentor": "Documentation generator for PHP.",
+    "phpunit/phpcov": "Command-line frontend for the PHP_CodeCoverage library",
+    "sami/sami": "Documentation generator used for Symfony2 docs.",
+    "theseer/phpdox": "A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing."
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
